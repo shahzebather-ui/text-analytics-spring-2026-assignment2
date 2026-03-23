@@ -1,11 +1,11 @@
 ## Evaluation and Reflection 
 
-**• How many of 20 did the model get right (by your judgment)?**
+### • How many of 20 did the model get right (by your judgment)?**
 
 Model got 14 right out of 20
 
 
-**• Did the model fail on the “tricky” examples? Why?**
+### • Did the model fail on the “tricky” examples? Why?**
 
 Model only got 1 right prediction out of the 5 "tricky" ones.
 
@@ -33,15 +33,15 @@ This was predicted as negative by the model but review is positive overall. It s
 
 This was predicted as positive by the model but is an overall negative review. Model predicted probably because it starts with positive words. 
 
-**• Did the model handle out-of-domain examples? Why or why not?**
+### • Did the model handle out-of-domain examples? Why or why not?**
 
 The model handled 3 out of 5 out-of-domain examples correctly. It is becaus the model learned sentiment patterns (positive & negative) from movie reviews which can be transferable to other domians but not always.
 
-**• What does this tell you about your model’s generalization ability?**
+### • What does this tell you about your model’s generalization ability?**
 
 The model generalizes and predicts well with straightforward reviews but struggles with reviews that have sarcasm and mixed signals. Suggesting the model learned basic sentiments but can not understand context given tbe sentence structure.
 
-**• Would you trust this model in production based on this test?**
+### • Would you trust this model in production based on this test?**
 
 No, because it fails on sarcasm, mixed signals and out-of-domain examples. Sarcasm and mixed signal reviews are often part of production so the model can not be reliable.
 
